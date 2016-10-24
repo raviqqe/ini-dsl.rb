@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name        = 'ini-dsl'
-  s.version     = '0.0.5'
+  s.version     = '0.0.1'
   s.date        = Date.today.to_s
   s.license     = 'Unlicense'
 
-  s.summary     = 'nginx.conf generator'
-  s.description = 'nginx.conf generator with pretty DSL'
+  s.summary     = '.ini file DSL'
+  s.description = '.ini file DSL and generator'
 
   s.authors     = ['Yota Toyama']
   s.email       = 'raviqqe@gmail.com'
