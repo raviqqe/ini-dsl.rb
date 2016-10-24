@@ -3,7 +3,7 @@
 require 'ini-dsl'
 
 
-conf = ini_dsl do
+conf = ini_file do
   events do
     worker_connections 1024
   end

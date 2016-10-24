@@ -18,7 +18,7 @@ Code:
 ```ruby
 require 'ini-dsl'
 
-config = ini_dsl do
+config = ini_file do
   server do
     ip '123.45.67.89'
     port 80
