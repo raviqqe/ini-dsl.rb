@@ -1,6 +1,6 @@
-# nginx-conf.rb
+# ini-dsl.rb
 
-[![Build Status](https://travis-ci.org/raviqqe/nginx-conf.rb.svg?branch=master)](https://travis-ci.org/raviqqe/nginx-conf.rb)
+[![Build Status](https://travis-ci.org/raviqqe/ini-dsl.rb.svg?branch=master)](https://travis-ci.org/raviqqe/ini-dsl.rb)
 [![License](https://img.shields.io/badge/license-unlicense-lightgray.svg)](https://unlicense.org)
 
 nginx.conf generator in Ruby
@@ -8,7 +8,7 @@ nginx.conf generator in Ruby
 ## Installation
 
 ```
-$ gem install nginx-conf
+$ gem install ini-dsl
 ```
 
 ## Usage
@@ -16,9 +16,9 @@ $ gem install nginx-conf
 Code:
 
 ```
-require 'nginx-conf'
+require 'ini-dsl'
 
-c = nginx_conf do
+c = ini_dsl do
   user :www
 
   http do

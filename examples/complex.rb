@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
-require 'nginx-conf'
+require 'ini-dsl'
 
 
-conf = nginx_conf do
+conf = ini_dsl do
   user :nobody, :nogroup
   worker_processes 1
   events do
