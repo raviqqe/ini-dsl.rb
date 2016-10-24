@@ -1,1 +1,1 @@
-require_relative 'ini-dsl/ini_dsl'
+require_relative 'ini-dsl/ini_file'

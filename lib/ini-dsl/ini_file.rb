@@ -4,6 +4,6 @@ require_relative 'from_hash'
 
 
 
-def ini_dsl &block
+def ini_file &block
   IniFile::from_hash block_is_hash([], &block)
 end
