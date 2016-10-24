@@ -1,10 +1,9 @@
 require 'block-is-hash'
 
-require_relative 'compiler'
+require_relative 'from_hash'
 
 
 
 def ini_dsl &block
-  repeats = %i(server load_module)
-  Compiler.new(repeats).compile block_is_hash(repeats, &block)
+  IniFile::from_hash block_is_hash([], &block)
 end
