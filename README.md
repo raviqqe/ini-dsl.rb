@@ -21,6 +21,7 @@ require 'ini-dsl'
 config = ini_dsl do
   server do
     ip '123.45.67.89'
+    port 80
   end
 
   security do
@@ -36,6 +37,7 @@ Output:
 ```
 [server]
 ip = 123.45.67.89
+port = 80
 [security]
 password = foobarbaz
 ```
